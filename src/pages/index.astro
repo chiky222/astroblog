@@ -1,4 +1,6 @@
 ---
+import BrailleTranslator from "../components/BrailleTranslator.jsx";
+
 const pageTitle = "My Astro App";
 ---
 
@@ -15,5 +17,6 @@ const pageTitle = "My Astro App";
     <a href="/about/">About</a>
     <a href="/blog/">Blog</a>
     <h1>{pageTitle}</h1>
+    <BrailleTranslator client:visible />
   </body>
 </html>
